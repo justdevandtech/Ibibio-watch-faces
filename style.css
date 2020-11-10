@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hd {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 15px;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    margin-left: 30px;
+    background-color: orange;
+}
+
+.hd h1 {
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    margin-top: 10px;
+}
+
+.header img {
+    width: 60px;
+    margin-left: 20px;
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    background-color: darkgray;
+    color: orangered;
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#display-text {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+
+/************social media****/
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    background-color: rgb(46, 73, 73);
+}
+
+.social img {
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 30px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+.social img {
+    position: relative;
+    animation-name: bborder;
+    animation-duration: 3s;
+    /* animation-delay: 1s;*/
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* animation-fill-mode: forwards;*/
+}
+
+@keyframes bborder {
+    0% {
+        border: 3px red solid;
+    }
+
+    25% {
+        border: 3px blue solid;
+    }
+
+    50% {
+        border: 3px yellow solid;
+    }
+
+    100% {
+        border: 3px white;
+    }
+}
+
+.social img {
+    width: 50px;
+    margin-top: 30px;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+}
+
+
+
+
+
+
